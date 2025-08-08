@@ -176,7 +176,7 @@
             }
             
             // ЗАМЕНИТЕ НА СХЕМУ ВАШЕГО ПРИЛОЖЕНИЯ
-            const appScheme = 'com.yourapp://oauth2callback';
+            const appScheme = 'https://service.onlyoffice.com/oauth2.aspx';
             const deepLink = `${appScheme}?code=${encodeURIComponent(code)}&state=${encodeURIComponent(state || '')}`;
             
             statusDiv.className = 'status success';
